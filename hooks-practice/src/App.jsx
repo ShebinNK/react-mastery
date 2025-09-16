@@ -3,6 +3,7 @@ import MessageApp from './components/MessageApp'
 import FormApp from './components/FormApp'
 import EffectApp from './components/EffectApp'
 import ToggleApp from './components/ToggleApp'
+import PokemonApp from './components/PokemonApp'
 
 export default function App() {
   return (
@@ -12,7 +13,8 @@ export default function App() {
       {/* <MessageApp /> */}
       {/* <FormApp /> */}
       {/* <EffectApp /> */}
-      <ToggleApp />
+      {/* <ToggleApp /> */}
+      <PokemonApp />
     </div>
   )
 }
